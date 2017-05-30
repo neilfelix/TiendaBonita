@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="productos">#a64fc1</color>
+    <color name="nombreProductos">#ca4299</color>
+    <color name="precios">#32ac54</color>
+    <color name="totales">#8b51ce</color>
+    <color name="total">#3d63c1</color>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.neil.tiendabonita.Tienda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="PRODUCTOS"
+            android:textAlignment="center"
+            android:textColor="@color/productos"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imgBlusa"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            app:srcCompat="@mipmap/blusa"
+            android:onClick="imgClick"/>
+
+        <CheckBox
+            android:id="@+id/cbxBlusa"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blusa off-shoulder en lyocell"
+            android:textAlignment="center"
+            android:textColor="@color/nombreProductos"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/lblPrecioBlusa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$399"
+            android:textAlignment="center"
+            android:textColor="@color/precios"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imgTenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/tenis"
+            android:onClick="imgClick"/>
+
+        <CheckBox
+            android:id="@+id/cbxTenis"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deportivas de plataforma"
+            android:textAlignment="center"
+            android:textColor="@color/nombreProductos"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/lblPrecioTenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$449"
+            android:textAlignment="center"
+            android:textColor="@color/precios"
+            android:textSize="24sp"/>
+
+        <ImageView
+            android:id="@+id/imgPantalon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/pantalon"
+            android:onClick="imgClick" />
+
+        <CheckBox
+            android:id="@+id/cbxPantalon"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Joggers estampados en punto"
+            android:textAlignment="center"
+            android:textColor="@color/nombreProductos"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/lblPrecioPantalon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$299"
+            android:textAlignment="center"
+            android:textColor="@color/precios"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imgBolsita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/bolsita"
+            android:onClick="imgClick" />
+
+        <CheckBox
+            android:id="@+id/cbxBolsita"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neceser brillante"
+            android:textAlignment="center"
+            android:textColor="@color/nombreProductos"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/lblPrecioBolsita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$169"
+            android:textAlignment="center"
+            android:textColor="@color/precios"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGUIENTE"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:onClick="btnSiguienteClick"/>
+    </LinearLayout>
+</ScrollView>
